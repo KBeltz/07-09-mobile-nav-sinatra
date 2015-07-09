@@ -14,7 +14,15 @@
           <a href="/cyclists"><li>Manage Cyclists</li></a>
           <a href="/bikes"><li>Manage Bikes</li></a>
           <a href="/rides"><li>Manage Rides</li></a>
+          <a href="/home"><li>Main</li></a>
         </ul>
+      </div>
+      <div id="nav_menu_inline">
+        <p id="title_inline">Bike Commuter Database</p>
+        <a class="inline_links" href="/cyclists"> Manage Cyclists </a>
+        <a class="inline_links" href="/bikes"> Manage Bikes |</a>
+        <a class="inline_links" href="/rides"> Manage Rides |</a>
+        <a class="inline_links" href="/home"> Main |</a>
       </div>
     </div>
   </header>
@@ -23,9 +31,5 @@
     <%= yield %>
     <script type="text/javascript" src="global.js"></script>
   </body>
-
-  <footer>
-    <a href = "/home">Return To Main Menu</a>
-  </footer>
 
 </html>
