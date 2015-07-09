@@ -56,6 +56,10 @@ footer {
     visibility: hidden;
   }
 
+  #title_inline {
+    display: none;
+  }
+
   #hamburger {
     display: block;
     width: 90px;
@@ -63,6 +67,10 @@ footer {
     top: 5px;
     left: 50%;
     margin: 0 0 0 -45px;
+  }
+
+  #nav_menu_inline {
+    display: none;
   }
 
   /*animation*/
@@ -115,6 +123,10 @@ footer {
     padding-left: 10px;
   }
 
+  #title_inline {
+    display: none;
+  }
+
   #hamburger {
     max-width: 100px;
     position: fixed;
@@ -122,6 +134,11 @@ footer {
     right: 0;
     padding-right: 10px;
   }
+
+  #nav_menu_inline {
+    display: none;
+  }
+
   /*animation*/
   #nav_menu {
     display: none;
@@ -155,6 +172,9 @@ footer {
 
 @media (min-width: 801px) {
   /*menu bar*/
+  #title {
+    display: none;
+  }
 
   #title_inline {
     font-family: verdana, arial, sans-serif;
