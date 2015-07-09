@@ -6,7 +6,7 @@ Full-width nav items, so that there are large, clickable links at the top of the
 A hamburger icon that reveals the nav section. This means the nav should be hidden (in some way) by default.
 Responsive nav, so the full-width nav items become floated left (to form a horizontal nav) or remain vertically stacked but in a sidebar column. This means the hamburger icon should disappear entirely for non-mobile devices, because the navigation is not hidden by default for those device widths.
 
-##Previous Project Description: Strava Lite
+##Previous Project Description, Truncated: Strava Lite
 
 This application will be a tool for bike commuters or casual, non-spandex-clad recreational riders to track rides and equipment without all of the KOM nonsense that roadies love.
 
