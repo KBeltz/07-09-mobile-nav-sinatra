@@ -104,7 +104,7 @@ footer {
   }
 }
 
-@media (min-width: 531px) and (max-width: 800px) {
+@media (min-width: 531px) and (max-width: 970px) {
   /*menu bar*/
   #top-bar {
     width: 100%;
@@ -170,7 +170,7 @@ footer {
   }
 }
 
-@media (min-width: 801px) {
+@media (min-width: 971px) {
   /*menu bar*/
   #title {
     display: none;
@@ -191,7 +191,7 @@ footer {
 
   #nav_menu_inline {
     width: 100%;
-    max-height: 100px;
+    height: 100px;
     background-color: purple;
     position: fixed;
     top: 0;
@@ -200,10 +200,11 @@ footer {
   }
 
   .inline_links {
-    font-size: 16px;
+    font-size: 18px;
     float: right;
     position: relative;
     right: 10px;
+    top: 40px;
     padding: 3px;
   }
 }
