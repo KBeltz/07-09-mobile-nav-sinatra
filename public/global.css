@@ -176,6 +176,10 @@ footer {
     display: none;
   }
 
+  #nav_menu {
+    display: none;
+  }
+
   #title_inline {
     font-family: verdana, arial, sans-serif;
     color: #fff;
